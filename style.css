@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    display: flex;
+    background-image: url('wp9237143-alone-pc-wallpapers.jpg');
+    justify-content: center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(211, 126, 21);
+}
+
+.main-header{
+    padding: 4px; 
+   box-shadow: 0px 0px 10px #830a0a;
+   height: 100px;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+.main-logo{
+    width: 100px;
+    height: 50px;
+}
+
+#main-nav-ul{
+    list-style: none;
+    display: grid;
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+#main-nav-ul li a{
+ text-decoration: none;
+}
+
+
+#main-nav-ul li a:hover{
+    color: red
+}
+#container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .cardi {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cardi:hover {
+    transform: translateY(-5px);
+  }
+  
+  .cardi img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+  
+  .cardi h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .cardi h4 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .cardi p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .cardi .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #28a745;
+    margin-bottom: 10px;
+  }
+  
+  .cardi .rating {
+    font-size: 14px;
+    color: #ffc107;
+  }
+  
+  @media (max-width: 600px) {
+    #container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
